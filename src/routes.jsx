@@ -7,7 +7,6 @@ const Loadable = (Component) => (props) => (
     </Suspense>
 );
 
-const MainLayout = Loadable(lazy(() => import('./layouts/MainLayout')));
 
 const CustomTool = Loadable(lazy(() => import('./pages/CustomTool/CustomTool')));
 
@@ -23,7 +22,7 @@ const routes = [
     //main domain routes
     {
         path: '/',
-        element: <MainLayout><CustomTool /></MainLayout>
+        element: <CustomTool />
     },
     ...all_subdomain_routes,
     ...extra_auth_routes,

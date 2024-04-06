@@ -1,0 +1,63 @@
+  @keyframes fireworks {
+      from {
+          transform: scale(0);
+          opacity: 0.5;
+      }
+
+      to {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+
+  .firework {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      animation: fireworks 1s ease-in-out forwards;
+      top: calc(50% - 50px);
+      left: calc(50% - 50px);
+      opacity: 0;
+  }
+
+  .winner-show {
+      font-size: 50px;
+      color: #FFD700;
+      z-index: 4;
+      animation: fadeInOut 5s;
+  }
+
+  .color1 {
+      background-color: #FF6347;
+  }
+
+  .color2 {
+      background-color: #FFD700;
+  }
+
+  .color3 {
+      background-color: #4CAF50;
+  }
+
+  .color4 {
+      background-color: #87CEEB;
+  }
+
+  .color5 {
+      background-color: #FF69B4;
+  }
+
+  @keyframes fadeInOut {
+      0% {
+          opacity: 0;
+      }
+
+      50% {
+          opacity: 1;
+      }
+
+      100% {
+          opacity: 0;
+      }
+  }

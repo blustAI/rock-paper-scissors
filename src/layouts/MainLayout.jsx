@@ -33,7 +33,8 @@ const MainLayout = (props) => {
         drawerVariant,
         threadsOpened,
         setThreadsOpened,
-        setToolsParent
+        setToolsParent,
+        authDialogOpen
     } = props;
 
     const app_header_options = {
@@ -45,6 +46,7 @@ const MainLayout = (props) => {
         },
         studiopath: import.meta.env.VITE_MAINPATH+"/",
         studio_url: window.location.protocol + "//" + window.location.host + import.meta.env.VITE_MAINPATH,
+        authDialogOpen
     }
 
     return <Box sx={{ display: 'flex', flexDirection: 'column' }}  {...limitHeight && { className: "vh100withFix" }} >

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { BlustaiCoreProvider } from 'blustai-react-core';
 import { HelmetProvider } from 'react-helmet-async';
+import 'regenerator-runtime/runtime';
 import './index.css'
 
 const helmetContext = {};
