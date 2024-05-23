@@ -1,4 +1,4 @@
-import{u as e}from"./index-JQIzhxEJ.js";const t=()=>e.jsx("div",{style:{whiteSpace:"pre-line",padding:"1em"},dangerouslySetInnerHTML:{__html:`
+import{u as e}from"./index-CJVBgN1t.js";const t=()=>e.jsx("div",{style:{whiteSpace:"pre-line",padding:"1em"},dangerouslySetInnerHTML:{__html:`
     <b>User Agreement</b>
 
     1. Introduction
